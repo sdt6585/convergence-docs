@@ -1,0 +1,157 @@
+erDiagram
+    PLAYER {
+        string id
+        string username
+        datetime lastLogin
+    }
+    
+    CHARACTER {
+        string id
+        string name
+        string race
+        string class
+        string specialization
+        string background
+        int tier
+        int totalSkillPoints
+    }
+    
+    STATS {
+        string characterId
+        int intelligence
+        int dexterity
+        int strength
+        int charisma
+        int intuition
+        int luck
+        int constitution
+    }
+    
+    SKILLS {
+        string characterId
+        int vesselPiloting
+        int dronePiloting
+        int hardwareMaintenance
+        int computerEngineering
+        int demolitions
+        int persuasion
+        int intimidation
+        int deception
+        int bartering
+        int pistols
+        int rifles
+        int heavyWeapons
+        int meleeWeapons
+        int brawling
+        int foraging
+        int perception
+        int animalHandling
+        int theft
+        int hacking
+        int performance
+        int stealth
+        int firstAid
+        int evasion
+        int education
+    }
+    
+    INVENTORY {
+        string characterId
+        string itemId
+        int quantity
+        bool equipped
+        string equipSlot
+    }
+    
+    ITEM {
+        string id
+        string name
+        string type
+        string description
+        int value
+        json attributes
+    }
+    
+    WEAPON {
+        string itemId
+        string weaponClass
+        int range
+        int damage
+        string referencedSkill
+        string ability
+        string proficiencyRequirement
+    }
+    
+    SHIELD {
+        string itemId
+        string name
+        string manufacturer
+        int shieldHp
+        string classification
+        int value
+        int rechargeRate
+        int rechargeSpeed
+    }
+    
+    SHIP {
+        string id
+        string name
+        string shipClass
+        int tonnage
+        int weight
+        int minCrew
+        int maxPassengers
+        int shieldCapacity
+        int maneuverability
+        int speed
+        int weaponPorts
+        json stationMap
+        json damageState
+    }
+    
+    SHIP_STATION {
+        string id
+        string shipId
+        string stationType
+        json position
+        json damageState
+    }
+    
+    SHIP_WEAPON {
+        string id
+        string name
+        string type
+        int range
+        int targetingDifficulty
+        int damage
+        string baseSkill
+    }
+    
+    FACTION {
+        string id
+        string name
+        string description
+        int relationWithPlayer
+    }
+    
+    MISSION {
+        string id
+        string title
+        string description
+        string factionId
+        json objectives
+        json rewards
+    }
+    
+    PLAYER ||--o{ CHARACTER : "has"
+    CHARACTER ||--|| STATS : "has"
+    CHARACTER ||--|| SKILLS : "has"
+    CHARACTER ||--o{ INVENTORY : "has"
+    INVENTORY }o--|| ITEM : "contains"
+    ITEM |o--o| WEAPON : "can be"
+    ITEM |o--o| SHIELD : "can be"
+    SHIP ||--o{ SHIP_STATION : "has"
+    SHIP ||--o{ SHIP_WEAPON : "equipped with"
+    CHARACTER }o--o{ SHIP_STATION : "assigned to"
+    FACTION ||--o{ MISSION : "offers"
+    CHARACTER }o--o{ MISSION : "participates in"

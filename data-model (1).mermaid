@@ -1,0 +1,192 @@
+erDiagram
+    USER {
+        string id
+        string username
+        string email
+        string passwordHash
+        string salt
+        datetime lastLogin
+    }
+    
+    GAME {
+        string id
+        string name
+        string description
+        string gameManagerId
+        datetime createdAt
+        boolean isActive
+    }
+    
+    CHARACTER {
+        string id
+        string name
+        string race
+        string class
+        string specialization
+        string background
+        int tier
+        int intelligence
+        int dexterity
+        int strength
+        int charisma
+        int intuition
+        int luck
+        int constitution
+        int totalSkillPoints
+        boolean isNPC
+        boolean isAlive
+        string userId
+        string gameId
+    }
+    
+    SKILL_DEFINITION {
+        string id
+        string name
+        string description
+        string statBasis
+    }
+    
+    CHARACTER_SKILL {
+        string characterId
+        string skillId
+        int level
+        int successCount
+        int failCount
+        boolean isPrimary
+        datetime lastUsed
+    }
+    
+    INVENTORY {
+        string characterId
+        string itemId
+        int quantity
+        bool equipped
+        string equipSlot
+    }
+    
+    ITEM {
+        string id
+        string name
+        string type
+        string description
+        int value
+        json attributes
+    }
+    
+    WEAPON {
+        string itemId
+        string weaponClass
+        int range
+        int damage
+        string referencedSkill
+        string ability
+        string proficiencyRequirement
+    }
+    
+    SHIELD {
+        string itemId
+        string name
+        string manufacturer
+        int shieldHp
+        string classification
+        int value
+        int rechargeRate
+        int rechargeSpeed
+    }
+    
+    SAMPLE {
+        string id
+        string name
+        string type
+        string description
+        string planetId
+        string characterId
+        json careRequirements
+        json bonuses
+        boolean isAlive
+        datetime collectedAt
+        datetime lastCaredFor
+    }
+    
+    PLANET {
+        string id
+        string name
+        string description
+        json environmentalFactors
+        json resourceTypes
+        json discoveredBy
+    }
+    
+    SHIP {
+        string id
+        string name
+        string shipClass
+        int tonnage
+        int weight
+        int minCrew
+        int maxPassengers
+        int shieldCapacity
+        int maneuverability
+        int speed
+        int weaponPorts
+        json stationMap
+        json damageState
+        string gameId
+    }
+    
+    SHIP_STATION {
+        string id
+        string shipId
+        string stationType
+        json position
+        json damageState
+    }
+    
+    SHIP_WEAPON {
+        string id
+        string name
+        string type
+        int range
+        int targetingDifficulty
+        int damage
+        string baseSkill
+    }
+    
+    FACTION {
+        string id
+        string name
+        string description
+        int relationWithPlayer
+        string gameId
+    }
+    
+    MISSION {
+        string id
+        string title
+        string description
+        string factionId
+        json objectives
+        json rewards
+        string gameId
+    }
+    
+    USER ||--o{ GAME : "manages"
+    USER ||--o{ CHARACTER : "plays"
+    GAME ||--o{ CHARACTER : "contains"
+    CHARACTER ||--o{ CHARACTER_SKILL : "has"
+    SKILL_DEFINITION ||--o{ CHARACTER_SKILL : "defines"
+    CHARACTER ||--o{ INVENTORY : "has"
+    INVENTORY }o--|| ITEM : "contains"
+    ITEM |o--o| WEAPON : "can be"
+    ITEM |o--o| SHIELD : "can be"
+    SHIP ||--o{ SHIP_STATION : "has"
+    SHIP ||--o{ SHIP_WEAPON : "equipped with"
+    CHARACTER }o--o{ SHIP_STATION : "assigned to"
+    SHIP }o--|| GAME : "belongs to"
+    FACTION ||--o{ MISSION : "offers"
+    FACTION }o--|| GAME : "exists in"
+    MISSION }o--|| GAME : "belongs to"
+    CHARACTER }o--o{ MISSION : "participates in"
+    PLANET ||--o{ SAMPLE : "source of"
+    CHARACTER ||--o{ SAMPLE : "collects"
+    GAME ||--o{ PLANET : "contains"
