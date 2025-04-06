@@ -2,6 +2,8 @@
 
 This repository contains all non-code project documentation, design plans, workflows, sprint boards, and architecture decisions related to the **Gargantua** project—a GM-facing TTRPG tool being collaboratively developed.
 
+The main entry point to the documentation is here, it provides links to primary documents.
+[[Project Vision & Meta Plan]]
 ## Repository Structure
 
 There are three main repositories.  Clone each of them into a single parent folder as shown below to allow you to open them all in a single IDE workspace and ensure any relative references for build/local dev server logic works correctly.
