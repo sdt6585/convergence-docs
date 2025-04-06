@@ -5,6 +5,7 @@
 .obsidian/appearance.json
 .obsidian/plugins/
 .obsidian/snippets/
+/.obsidian
 
 # System files
 .DS_Store
