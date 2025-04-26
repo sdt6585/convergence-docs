@@ -8,11 +8,12 @@
   let weaponDocksOpen = true;
   let stationsOpen = true;
   
-  // Player data
+  // This code will need to be updated to dynamically update based on JSON from Supabase and update live during the game
   const playerShip = {
     id: "123",
     name: "Rosinante",
     attributes: {
+// Will current attributes be updated back to SupaBase? Maybe when a session is ended?
       hp: { current: 465, max: 800 },
       shields: { current: 0, max: 2000 },
     },
