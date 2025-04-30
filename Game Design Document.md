@@ -958,7 +958,7 @@ Each weapon type is compatible with certain ports, which are then available on s
     * Base Skill: Null
 * Torpedo Launcher
     * Range: radar detection range
-    * Targeting Difficulty: Varies based on velocity and
+    * Targeting Difficulty: 
 * Rail Gun
 	* Range
 * Autonomous mines
@@ -990,33 +990,38 @@ Turns take place on a radar grid, with each ship and torpedo tracked which we wi
 **Power Output**
 The ship's reactor core has a total amount of energy available to it any given point, referred to as "power output". You may choose how to allocate power output on turn by turn basis. The power distribution options are Shields, Engines, and fixed weapons.  Each station may dedicate a percentage of total power output up to 100% of reactor power.
 
-- Calculation for increase in velocity
+- Calculation for change in velocity
+	- Classic Delta-V
+	- Available fuel should decrease
+	- G Force should be an output, crew will need to roll to withstand
+	- Players need some kind of visual feedback system to understand how much of a G force increase a given maneuver will be
 - Calculation for increase in damage by weapon
 - Calculation for shield energy absorption
 - Calculation for heat dissipation from each
+- Calculation for fuel consumption
 
 
-Stations
+**Stations**
 
 Navigation: A crew member makes a check against their piloting skill against a given difficulty. When evading enemy fire, higher velocity evasive maneuvers will increase the chance of success. This is limited by available fuel and the ability of crew members to endure high G forces. See evasive maneuvers for more details.
 
   
 
-Shields: A crew member makes an intuition check to predict where the shield should be concentrated for impact. If the check is successful, the shield will absorb all of the incoming energy until the shield or incoming energy is consumed. If the check fails, some of the energy will penetrate the shield and damage the hull of the ship.
+**Shields**: A crew member makes an intuition check to predict where the shield should be concentrated for impact. If the check is successful, the shield will absorb all of the incoming energy until the shield or incoming energy is consumed. If the check fails, some of the energy will penetrate the shield and damage the hull of the ship.
 
 Calculations:
 - Shield overpenetration hull damage
 
-Comms: A crew member attempts to hail other ships and makes charisma-based checks to effect the interaction.
+**Comms**: A crew member attempts to hail other ships and makes charisma-based checks to effect the interaction.
 
-Targeting: A crew member selects targeting priority and allocated power per weapon on a given turn. This crew member makes luck rolls to see how quickly enemy projectiles can be shot down by  laser turrets each turn.
+**Targeting**: A crew member selects targeting priority and allocated power per weapon on a given turn. This crew member makes luck rolls to see how quickly enemy projectiles can be shot down by  laser turrets each turn.
 
 Calculations:
 - Laser turret projectile destruction
 
-Network Defense
+**Network Defense**: A crew member attempts to penetrate opponent network defense to weaken or immobilize opposing ship functions.
 
-Maintenance: A crew member is an space suit inside the maintenance bay making hardware maintenance checks to identify excessive and address excessive heat buildup. This is a dangerous job, and will require strapping in when the ship engages in high G maneuvers.
+**Maintenance**: A crew member is an space suit inside the maintenance bay making hardware maintenance checks to identify excessive and address excessive heat buildup. This is a dangerous job, and will require strapping in when the ship engages in high G maneuvers.
 
 
 
