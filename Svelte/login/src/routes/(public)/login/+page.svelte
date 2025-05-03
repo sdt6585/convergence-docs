@@ -1,23 +1,42 @@
 <!-- src/lib/components/Login.svelte -->
 <script>
+  import '../../../styles/auth-forms.css';
+  import { createClient } from '@supabase/supabase-js';
+  import { PUBLIC_SUPABASE_URL, PUBLIC_SUPABASE_ANON_KEY } from '$env/static/public';
+  import { goto } from '$app/navigation';
+
+  // Initialize Supabase client
+  const supabase = createClient(PUBLIC_SUPABASE_URL, PUBLIC_SUPABASE_ANON_KEY);
+
   // Svelte 5 reactive variables using $state
   let email = $state('');
   let password = $state('');
   let isLoading = $state(false);
+  let errorMessage = $state('');
   
   // Form submission handler
-  function handleLogin(event) {
+  async function handleLogin(event) {
     event.preventDefault();
     isLoading = true;
+    errorMessage = '';  // Clear any previous errors
     
-    // This would be replaced with actual login logic
-    console.log('Login attempt:', { email, password });
-    
-    // Simulate API request
-    setTimeout(() => {
+    try {
+      const { data, error } = await supabase.auth.signInWithPassword({
+        email: email,
+        password: password
+      });
+      
+      if (error) throw error;
+      
+      // Successful login - you can redirect or handle the session here
+      goto('/app');
+      
+    } catch (error) {
+      console.error('Login error:', error);
+      errorMessage = error.message;
+    } finally {
       isLoading = false;
-      // Would normally handle success/error here
-    }, 1000);
+    }
   }
   
   // Google sign-in handler
@@ -27,12 +46,12 @@
   }
 </script>
 
-<div class="login-container">
-  <div class="login-header">
+<div class="auth-container">
+  <div class="auth-header">
     <h2>Sign In</h2>
   </div>
   
-  <form class="login-form" on:submit={handleLogin}>
+  <form class="auth-form" on:submit={handleLogin}>
     <div class="form-group">
       <label for="email">Email</label>
       <input 
@@ -58,6 +77,13 @@
     <button type="submit" class="btn btn-primary" disabled={isLoading}>
       {isLoading ? 'Signing In...' : 'Login'}
     </button>
+
+    
+    {#if errorMessage}
+      <div class="error-message">
+        {errorMessage}
+      </div>
+    {/if}
     
     <div class="divider">OR</div>
     
@@ -77,84 +103,13 @@
       Continue with Google
     </button>
     
-    <div class="register-link">
-      <p>Don't have an account? <a href="#">Register</a></p>
+    <div class="auth-link">
+      <p>Don't have an account? <a href="/signup">Sign Up</a></p>
     </div>
   </form>
 </div>
 
 <style>
-  .login-container {
-    background-color: rgba(30, 30, 30, 0.95);
-    border-radius: 15px;
-    padding: 2rem;
-    width: 90%;
-    max-width: 400px;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    margin: 0 auto;
-  }
-
-  .login-header {
-    text-align: center;
-    margin-bottom: 1.5rem;
-  }
-
-  .login-header h2 {
-    color: #f5f5f5;
-    font-weight: 300;
-    font-size: 1.8rem;
-  }
-
-  .login-form {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
-
-  .form-group {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-
-  label {
-    font-size: 0.9rem;
-    color: #aaa;
-  }
-
-  input {
-    padding: 0.8rem;
-    border-radius: 5px;
-    border: 1px solid #333;
-    background-color: #222;
-    color: #fff;
-    font-size: 1rem;
-  }
-
-  .btn {
-    padding: 0.8rem;
-    border-radius: 5px;
-    border: none;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: all 0.2s ease;
-  }
-
-  .btn-primary {
-    background-color: #444;
-    color: white;
-  }
-
-  .btn-primary:hover:not(:disabled) {
-    background-color: #555;
-  }
-
-  .btn-primary:disabled {
-    opacity: 0.7;
-    cursor: not-allowed;
-  }
-
   .btn-google {
     background-color: #333;
     color: white;
@@ -194,21 +149,6 @@
 
   .divider::after {
     margin-left: 0.5rem;
-  }
-
-  .register-link {
-    text-align: center;
-    margin-top: 1rem;
-    color: #666;
-  }
-
-  .register-link a {
-    color: #888;
-    text-decoration: none;
-  }
-
-  .register-link a:hover {
-    text-decoration: underline;
   }
 
   @media (max-width: 480px) {

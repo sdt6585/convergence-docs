@@ -1,5 +1,11 @@
 <script>
-  import '../app.css';
+  import '../../app.css';
+  import { createClient } from '@supabase/supabase-js';
+  import { PUBLIC_SUPABASE_URL, PUBLIC_SUPABASE_ANON_KEY } from '$env/static/public';
+
+  //Check if we're logged in or not
+  const supabase = createClient(PUBLIC_SUPABASE_URL, PUBLIC_SUPABASE_ANON_KEY);
+  supabase.auth.getSession()
 </script>
 
 <div class="app">
@@ -11,6 +17,7 @@
     <nav>
       <a href="/">Home</a>
       <a href="/login">Login</a>
+      <a href="/signup">Sign Up</a>
     </nav>
   </header>
   
