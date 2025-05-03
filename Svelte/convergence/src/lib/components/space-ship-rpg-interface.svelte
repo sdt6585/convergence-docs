@@ -7,6 +7,7 @@
   import ChatPanelComponent from './chat-panel-component.svelte';
   import ChatHistoryComponent from './chat-history-component.svelte';
   import ShipSummaryComponent from './ship-summary-component.svelte';
+  import RadarInterface from './radar-interface.svelte';
   
   let isMobile = false;
   let showMobileMenu = false;
@@ -89,7 +90,7 @@
         </div>
         
         <div class="middle-center-panel">
-          <ChatHistoryComponent />
+          <RadarInterface />
         </div>
         
         <div class="bottom-center-panel">

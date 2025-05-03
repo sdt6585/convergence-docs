@@ -8,7 +8,8 @@
     import ChatHistoryComponent from '$lib/components/chat-history-component.svelte';
     import ShipSummaryComponent from '$lib/components/ship-summary-component.svelte';
     import CollapsibleItemComponent from '$lib/components/collapsible-item-component.svelte';
-    
+    import RadarInterface from '$lib/components/radar-interface.svelte';
+
     let isMobile = false;
     let showMobileMenu = false;
     
@@ -90,7 +91,7 @@
           </div>
           
           <div class="middle-center-panel">
-            <ChatHistoryComponent />
+            <RadarInterface />
           </div>
           
           <div class="bottom-center-panel">

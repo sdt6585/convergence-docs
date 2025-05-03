@@ -1,7 +1,7 @@
 <!-- components/ShipSummary.svelte -->
-<script>
-  export let type = "player"; // player or npc
-  export let number = "1";
+<script lang="ts">
+  export let type: "player" | "npc" = "player";
+  export let number: "1" | "2" = "1";
   
   let expanded = false;
   
@@ -31,7 +31,7 @@
     }
   };
   
-  $: ship = shipData[type][number];
+  $: ship = shipData[type][number as keyof typeof shipData[typeof type]];
   $: title = type === "player" ? "Player Ship" : `NPC Ship #${number}`;
   
   function toggleExpand() {
