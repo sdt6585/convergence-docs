@@ -1,0 +1,7 @@
+- What function or component makes the call to Supabase to populate data in the browser?
+- Where does the global header code live?
+- How does the login process work at a high level, with reference to where each function takes place within the code?
+- Are we at a point where a reasonable next step would be to create database structure in Supabase so we can populate the game UI with data from Supabase?
+	- Or should we focus on getting the radar working as a user interface first?
+- What's the most effective way for us to merge code if what we work might have overlap, should Scott create branches so we can review together before merging?
+	- Scott will most be doing mostly sketchy vibe coding
