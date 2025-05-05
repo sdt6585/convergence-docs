@@ -1,5 +1,7 @@
 **Goal**: Develop a multi-scale radar visualization system for space combat, exploration, and galaxy navigation with realistic 2D physics and turn-based mechanics
 
+Detailed mockup of user interaction here
+[[mockup - Radar Action Notes]]
 ## High Level Objectives
 
 - Create a canvas-based radar renderer with three distinct scale levels
