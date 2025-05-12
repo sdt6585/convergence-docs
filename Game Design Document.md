@@ -12,7 +12,12 @@ A small crew braves the final frontiers of deep space. Chart your course across 
  
  
 The choice is yours as you and your crew set your names amongst the stars.
+## Gameplay
+Every action you take will involve some kind of roll, usually a skill or stat check. The standard roll is a d15, where the maximum value is 15 and the minimum value is 1. When you roll a 15 you have a critical success, which means you get to roll an additional time and that roll to your total. You may keep rolling until you not roll a crit.
 
+When you roll a 1 it is a critical failure, which means you automatically do not pass.
+
+Luck Die: Every time you roll a standard skill or stat roll, a luck die rolls in the background. This is a d30, and if it lands in a 1-29, nothing happens. If you roll a 30 (or your luck adds up to 30) you have a cosmic moment, which means you gain a free re-roll to use at your choice. Your luck stat is added to every luck roll.
 
 ## Factions
 
@@ -555,8 +560,11 @@ Younger space-faring race with a hardy and adaptable nature. While not as strong
 
 
 ## Stats
+Stats vary on a practical scale of 1-15 but have no actual cap. Characters can reinforce their core stats through various means as much as they are able, though it generally takes considerable effort 
 
+The standard stat array is 45 points distributed amongst the core stats excluding luck.
 
+Races each have 35 starting stats that are racially defined. You may distribute 10 points amongst the additional stats you wish, where upgrade points are double for luck and stat values above 10.
 
 * Intelligence
 * Dexterity
