@@ -1,3 +1,51 @@
+
+
+### Stephen Notes:
+- [x] Spike Solution - Radar view - kind of working
+- [x] Test creating an object - done/working with new games
+- [ ] Notes thinking about how to structure data for AI, Procedural UI, and Asynchronous  Broadcast/Subscription model simultaneously
+	- [ ] First - just load all the data we need sequentially/normally into a large "game object and make some notes"
+		- [ ] Need an easier way to query the player characters vs the non player characters - I think a trigger would work to keep up an is_npc field
+- [ ] SQL/Game Logic Rules Needed:
+	- [ ] Game must have at least one player that is game master at all times, must make a new one to remove the original GM - may need some special logic like if it had a user before, it needs to keep one so it will allow game creation -> player addition as a multi-step process or maybe that needs to be a stored procedure or something?1
+	- [ ] Player_Character - unique index across player_id, character_id
+		- [ ] Player_Character can only have one active character at a time 
+	- [ ] Position of type ship, planet, or character must have a referencing foreign key in the other table.
+	- [ ] Must fix JSONB default, it's hideous
+- [ ] Move access control into the main layout - redirect if you go to a place you down have privileges to after auth
+- [ ] Attempt to understand the store concept in svelte
+	- [ ] Move login
+	- [ ] Move signup
+	- [ ] Move get games
+	- [ ] Move create/update games - and start thinking through a crud definition to auto-generate functions
+- [ ] Mock up:
+	- [ ] Game
+		- [ ] Players + NPC
+		- [ ] Ships + NPC
+		- [ ] System, planets, sun, asteroid
+- [ ] Think about how to AI in this setting
+	- [ ] Use a central GameStore.js to:
+		- [ ] Keep an array of all the functions that you can call on the game objects
+		- [ ] Keep sub arrays of the primary game elements:
+			- [ ] Game
+			- [ ] Players
+			- [ ] Characters
+				- [ ] Skills
+				- [ ] Equipment
+				- [ ] Etc
+			- [ ] Ships
+				- [ ] Weapons
+				- [ ] Shields
+				- [ ] Upgrades
+			- [ ] 
+- [ ] Test creating a real access control scheme for the tables
+- [ ] Test communication of current game back up to the menu to enable extra menu options (game settings, manage players, etc) under a sub menu for the current game
+	- [ ] Add a settings option to the list too so you can jump right to people, settings, etc
+- [ ] Test JSON-B based document store in Postgres through supabase so we can have a quick/flexible schema to start with - make sure and include a version with it
+- [ ] Setup core User (with preferences object), Game, Roles Table + Security Rules, Ships, Characters, Planets, Equipment, etc objects.
+
+
+
 # Sprint 02: Core UI Framework - Detailed Tasks - AI Generated, use as scratchpad for todo lists
 
 ## Component Architecture Decisions
@@ -35,10 +83,6 @@ const panelConfig = {
 ```
 
 
-### Stephen Notes:
-- [ ] Spike Solution - Radar view
-- [ ] Test JSON-B based document store in Postgres through supabase so we can have a quick/flexible schema to start with - make sure and include a version with it
-- [ ] Setup core User (with preferences object), Game, Roles Table + Security Rules, Ships, Characters, Planets, Equipment, etc objects.
 ## Task Breakdown
 
 ### Week 1: Panel System Foundation

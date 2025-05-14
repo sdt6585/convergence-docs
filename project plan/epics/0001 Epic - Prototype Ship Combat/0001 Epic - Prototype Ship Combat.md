@@ -21,6 +21,8 @@ TABLE WITHOUT ID
   round(length(filter(file.tasks, (t) => contains(t.text, "TASK::") AND t.completed)) / length(filter(file.tasks, (t) => contains(t.text, "TASK::"))) * 100, 0) + "%" as "Progress"
 FROM "project plan/epics/0001 Epic - Prototype Ship Combat"
 WHERE file.folder = "project plan/epics/0001 Epic - Prototype Ship Combat"
+  AND file.name != "0001 Epic - Prototype Ship Combat"
+SORT file.link ASC
 ```
 
 ### Notes

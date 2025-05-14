@@ -1,0 +1,8 @@
+ - How to divide work - GIT
+ - How does supabase work - code review
+	 - Install node
+	 - Run npm i
+	 - Copy/paste files from email (.env) into top level convergence folder
+ - Calculations for Rolls
+ - UI Plan
+ - Data structures plan
