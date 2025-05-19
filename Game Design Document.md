@@ -748,8 +748,7 @@ Languages
 * Language: Troydian
 * Language: C’Than
 
-
-## Equipment
+## Machines
 
 
 ### Weapons
@@ -1109,5 +1108,41 @@ Damage: 4.18 × 10^15 joules
 
 ## Places
 
+### The Lodestone
+The Lodestone is the Supermassive Black hole that sits in the nexus of the web of galaxies that comprises our known galaxy. It is populated and developed, as all commercial trade routes utilized its gate system to quickly travers to other markets.
+
+## Eternity's Gates
+
+The Event Horizon of the Lodestone is the termination point of the 21 major cosmic filaments that connect billions of galaxies. 
+
+5 of the 21 filaments are serviced with gates that direct traffic into their connected Super Clusters.
+
+The filaments are labeled:
+
+- AE: Extension of Alpha Centuari and connect super-clusters that Humans traversed in their Odyssey from Sol
+- TR: Network of conquered worlds that once comprised the Troydian Empire
+- CT: The Altaformed systems of C'Thanian influence and origin
+- CAR-0: The first allied system governed by the Confederation of Allied Races with shared trading rules
+- CAR-1: A mutual resource extraction venture into a nearby otherwise unexplored cosmic filament
 
 ## Lore
+
+This section comprise the major history and storyline of the world of convergencts
+
+### The great odyssey
+A thousand years ago the people of humanity were forced to flee their home star system of Sol in the Milky Way galaxy into unknown frontiers. They sought places humanity could flourish and survive in fertile atmosphere. The Milky Way sits adrift the yawing KBC void, which meant humanity's great scientists had to develop FTL (faster than light) travel to cross the empty expanse and reach the vast cosmic filaments of stars that form the highways of the galaxy. 
+
+The invention of Casamir Alloy made possible the conjuring of Einstein-Rosen Bridges to cross vast distances of space. Initial exploratory flights jumped to nearby Super Clusters that first chased solar and planetary systems that could be identified as habitable through visual mediums.
+
+The initial methods were crude, and had the obvious weakness of relying on signals that had been travelling for years through empty space. By the time human craft arrived on distant galaxies, remarkable changes had already taken place. Still, some systems were habitable and patterns began to emerge.
+
+Dense galactic entanglements tended to have more matter and energy than the comparatively cold Milky Way. Atmospheric conditions conducive to carbon based life were more common, though other space faring races were still unknown. Humans began following the cosmic filament of their local super clusters, and thus eventually found their way to rotational point of the entire known universe - the Omega-class supermassive black hole referred to as the Lodestone.
+
+Billions of galaxies wrapped around the Lodestone extend in massive tendrils across the known universe. Though the universe may not all spin around the enormous black hole, it seems that intelligent life does.
+
+And life indeed seems to spring eternal around the maw of eternity, as the colliding matter and energy are the perfect cauldron of chaos to seed new possibilities. The systems that orbit the event horizon of the Lodestone brimming with intelligent life as well as valuable resources. Humans were not the first to arrive in this cosmic Eden, as the Troydians and C'Than had already met and fueded over control over the most valuable region in the universe. 
+
+The end of the Odyssey was humanity's arrival at Eternity's Throne (the Lodestone) and it's official first contact with other intelligent species.
+
+
+
