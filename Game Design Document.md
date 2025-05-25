@@ -1113,17 +1113,17 @@ The Lodestone is the Supermassive Black hole that sits in the nexus of the web o
 
 ## Eternity's Gates
 
-The Event Horizon of the Lodestone is the termination point of the 21 major cosmic filaments that connect billions of galaxies. 
+The Event Horizon of the Lodestone is the termination point of the major cosmic filaments that connect billions of galaxies. 
 
-5 of the 21 filaments are serviced with gates that direct traffic into their connected Super Clusters.
+4 of the filaments are serviced with gates that direct traffic into their connected Super Clusters.
 
 The filaments are labeled:
 
 - AE: Extension of Alpha Centuari and connect super-clusters that Humans traversed in their Odyssey from Sol
 - TR: Network of conquered worlds that once comprised the Troydian Empire
 - CT: The Altaformed systems of C'Thanian influence and origin
-- CAR-0: The first allied system governed by the Confederation of Allied Races with shared trading rules
-- CAR-1: A mutual resource extraction venture into a nearby otherwise unexplored cosmic filament
+- CAR-0: The first allied system governed by the Confederation of Allied Races with shared trading rules. It is mostly unexplored
+
 
 ## Lore
 
@@ -1143,6 +1143,46 @@ Billions of galaxies wrapped around the Lodestone extend in massive tendrils acr
 And life indeed seems to spring eternal around the maw of eternity, as the colliding matter and energy are the perfect cauldron of chaos to seed new possibilities. The systems that orbit the event horizon of the Lodestone brimming with intelligent life as well as valuable resources. Humans were not the first to arrive in this cosmic Eden, as the Troydians and C'Than had already met and fueded over control over the most valuable region in the universe. 
 
 The end of the Odyssey was humanity's arrival at Eternity's Throne (the Lodestone) and it's official first contact with other intelligent species.
+
+### The Anti-Matter War
+When the humans completed their trek to the lodestone, a few very important things happened in rapid succession.
+
+First, they met not 1 but 2 intelligent space faring races.
+
+Second, they found that fertile world indeed seemed more frequent they closer they got to the Lodestone.
+
+Last, they found themselves embroiled in intergalactic war.
+
+All 3 races and traversed vast stretches of space, settling world to world to form connected trading networks. These networks relied on volatile fuels, particularly anti-matter, to power trade. 
+
+The awesome black hole at the center of universe provided an ideal and practically infinite capture point for anti-matter. The Troydians and C'than dispute who arrived first, but it is indisputable that they made little attempt to negotiate  or collaborate. Their culture and physiological differences were such that conflict was inevitable and immediate. The 2 races fought viciously, and thoroughly prevented each other from any sustained industrial extraction of the black hole's resources.
+
+The Troydians were hardy and bellicose, and even their manned vessels were more than a match for C'than yachts. 
+
+The C'than were crafty and patient, and their entrenched solar system and planetary defenses would eviscerate any Troydian fleets ignorant enough to attempt a full-scale invasion.
+
+So for a while, there was a bloody stalemate. Until a strangle and bold race arrived that called themselves Human.
+
+The Human fleet had its soldiers and weapons, but they had been battling most against environmental threats for generations. Weapons were peace-keeping tools, or at worst extensions of governmental authority.
+
+The Troydians and C'than were the most devasting threat in human memory. Their weapons were tuned for absolute destruction, and their fleets of unmanned warships were lethal to the human ships unlucky enough to encounter the alien fleets.
+
+The human fleet halted on the horizon of the Lodestone and turned their industrial and technological prowess to understanding their enemies and expanding their military power.
+
+The AE filament humanity emerged from was a significant slip space jump from the Troydian/C'Than conflict zone, and the two races were more focused on the greater threat each posed to the other. There was a critical span of several decades where the humans did not attempt to enroach on the disputed space, and contented themselves to observe the great Lodestone and their new neighbors from afar.
+
+That all changed in the Battle of the Horsehead, which took place in Horsehead Nebula (called Durshka Mata by the Troydian's) in the Troydian Filament. The Troydian Navy had mustered 60% of its fleet in a training exercise and parade maneuver as the Zuraav (Grand Admiral) of the fleet performed a propaganda spectacle to humiliate the C'Than.
+
+The human fleet emerged from deep spaces like ghosts, pulling off the largest high speed stealth maneuver ever. Troydia had never seen such effective stealth tech before (nor indeed had the C'Than), and found themselves pummeled to oblivion before they had a chance to respond. 
+
+The humans immediately offered clear terms in exchange for fair trading rights that would be shared. The Troydians capitulated after some internal debate. The 2 races agreed to share command of a combined navy that would immediately turn its gaze to C'Thanian space.
+
+The C'Than to their credit put up considerable effort against the Human/Troydian front, but even their formidable defense networks could be choked out by blockade.
+
+### Jaren Conway
+During the Dark Matter War some adventurers fled the civilized filaments to seek fortune in the stars. One of the explorers, a human named Jaren Conway, led a small crew aboard the *Traverse* to a  hitherto unexplored filament. He disappeared for 20 years, but then returned with new allies and strange biological matter unlike any ever seen before. The crew of the *Traverse* were said to possess strange abilities after their return, and Jaren himself claimed they had discovered the "root of the cosmic tree" from which all life springs. His strange tales inspired a new generation of explorers to discover wondrous new life and rich treasures.
+
+The newly minted Confederation of Allied Races found this to be the perfect opportunity to release the pressure of competitive  exports and intergalactic immigration. The newest permanent E-Gate was created on the proverbial doorstep of Conway's web, as it would later come to be called.
 
 
 
