@@ -13,11 +13,68 @@ A small crew braves the final frontiers of deep space. Chart your course across 
  
 The choice is yours as you and your crew set your names amongst the stars.
 ## Gameplay
+
+### Dice Rolling
 Every action you take will involve some kind of roll, usually a skill or stat check. The standard roll is a d15, where the maximum value is 15 and the minimum value is 1. When you roll a 15 you have a critical success, which means you get to roll an additional time and that roll to your total. You may keep rolling until you not roll a crit.
 
 When you roll a 1 it is a critical failure, which means you automatically do not pass.
 
 Luck Die: Every time you roll a standard skill or stat roll, a luck die rolls in the background. This is a d30, and if it lands in a 1-29, nothing happens. If you roll a 30 (or your luck adds up to 30) you have a cosmic moment, which means you gain a free re-roll to use at your choice. Your luck stat is added to every luck roll.
+
+### Space Navigation
+When your crew is assembled on your ship and ready to set a course, you will view the various levels of the space map system to set your destination. 
+
+**Step 1: Choose a destination**
+From your ships navigation system you may view the current system your ship is docked in. The levels of systems are Galactic/Stellar/Planetary. You must navigate directly to a destination within your current system unless attempting a Slip-Space jump.
+
+When exploring new systems, you may use tools to identify systems that look promising for resource extraction or settlement creation.
+
+ - Astronomical Observatory: Use education, perception to record star systems for signs of fertile worlds
+ - Deep Scanners: Use education, sofware engineering to design algorithms that detect target patterns for deeper investigation
+
+Check: Each scanning or observation check takes a standard 24 hour day. The GM sets a DC for the check, and if it successful the players identify a star system that may contain 1 or more habitable or resource-rich planets. A critical success gaurantees a multi-node harvestable systems.
+
+Harvestable Systems:
+- Habitable Planet
+- Rare ore asteroid field
+- Energy-dense gas
+- Anti-matter
+
+
+**Step 2: Estimate time and fuel consumption**
+The GM notes the distance to the astral body, and the player's will set launch trajectory and target velocity to reach the destination. If fuel store will not be adequate, the player's may chart a multi-stop course with refueling points.
+
+Allied factions will commonly mark waystations on the ships navi-computer. In areas where there are no known settlements or way stations, anti-matter may be scavenged and processed locally from nebula or dying stars. Anti-matter collection is dangerous work, and requires precise piloting to succeed. 
+
+By chain together refuels, a ship may traverse the vast interconnected galaxies that form Conway's web, limited only by basic supplies and storage capacity.
+
+**Slip-Space Jumps vs Rocketry**
+The average freighter only carries enough Casamir Alloy to make 4 slip-space jumps. Most intergalactic journeys are navigated by traditional rocketry, which trips typically taking several weeks to arrive at their destination. 
+
+**Casamir alloy**
+Casamir Alloy is extremely rare and expensive. Only specialized merchants sell it, typically near Aeterna.
+
+**Fuel Consumption**
+When you select a rocketry trajectory, your delta-V will determine anti-matter fuel consumption for the journey.
+
+**Step 3: Make the Journey**
+If all goes well you will arrive safely at your journey after some uneventful days crossing the vastness of space.
+
+Crews will commonly bide the time in a variety of ways which your particular crew can choose. A few examples are:
+
+Gambling
+Storytelling
+Training skills
+Performing research
+Hanging out with other crew members
+
+**Hazards**
+There are always hazards in space, and unexpected dangers can force you to take manual control of the ship. When this happens, you will view the ship's tactical screen to respond to the threat.
+
+**Step 4: Arrive**
+When you arrive at your target celestial body, you make make additional scans and communication requests to any nearby eligible recipients. This can be a good way to gather information and make a strategic entrance to an unknown destination.
+
+You may attempt to land wherever you wish, but locations with solid ground or better yet, port facilities, are generally safer. Most freighters have a small landing craft for tactical or scouting expeditions.
 
 ## Factions
 
@@ -748,8 +805,7 @@ Languages
 * Language: Troydian
 * Language: C’Than
 
-
-## Equipment
+## Machines
 
 
 ### Weapons
@@ -1109,5 +1165,112 @@ Damage: 4.18 × 10^15 joules
 
 ## Places
 
+####  Perditor Aeterna - The Lodestone
+The Lodestone is the Supermassive Black hole that sits in the nexus of the web of galaxies that comprises our known galaxy. It is populated and developed, as all commercial trade routes utilized its gate system to quickly travers to other markets.
+
+### Eternity's Gates
+
+The Event Horizon of Aeterna is the termination point of the major cosmic filaments that connect billions of galaxies. 
+
+4 of the filaments are serviced with gates that direct traffic into their connected Super Clusters.
+
+The filaments are labeled:
+
+- AE (Athens Gate): Extension of Alpha Centuari and connect super-clusters that Humans traversed in their Odyssey from Sol
+- TR (Troy Gate): Network of conquered worlds that once comprised the Troydian Empire
+- CT (Delphi Gate): The Altaformed systems of C'Thanian influence and origin
+- CAR-0 (Cairo Gate): The first allied system governed by the Confederation of Allied Races with shared trading rules. It is mostly unexplored
+
+
+### Hullusta
+Major city orbiting Aeterna. Hullusta has booming market and entertainment districts supplied by the inter-galactic shipping industry that flows through its independent ports. It also serves as a major refueling station and garrison for the CAR.
+### Conway's Web
+Conway's Web is a cosmic filament that possesses unusually high concentration of life-bearing worlds in relatively close proximity. There are small settlements across the near frontier that are clustered to the Orion Nebula. This region of space is know for it's powerful storms that make coordinated fleet navigation nearly impossible.
+
+Past the Orion is said to be pirate space, and forces unknown prowl the stars behind those.
 
 ## Lore
+
+This section comprise the major history and storyline of the world of convergence
+
+### The Great Odyssey
+A thousand years ago the people of humanity were forced to flee their home star system of Sol in the Milky Way galaxy into unknown frontiers. They sought places humanity could flourish and survive in fertile atmosphere. The Milky Way sits adrift the yawing KBC void, which meant humanity's great scientists had to develop FTL (faster than light) travel to cross the empty expanse and reach the vast cosmic filaments of stars that form the highways of the galaxy. 
+
+The invention of Casamir Alloy made possible the conjuring of Einstein-Rosen Bridges to cross vast distances of space. Initial exploratory flights jumped to nearby Super Clusters that first chased solar and planetary systems that could be identified as habitable through visual mediums.
+
+The initial methods were crude, and had the obvious weakness of relying on signals that had been travelling for years through empty space. By the time human craft arrived on distant galaxies, remarkable changes had already taken place. Still, some systems were habitable and patterns began to emerge.
+
+Dense galactic entanglements tended to have more matter and energy than the comparatively cold Milky Way. Atmospheric conditions conducive to carbon based life were more common, though other space faring races were still unknown. Humans began following the cosmic filament of their local super clusters, and thus eventually found their way to rotational point of the entire known universe - the Omega-class supermassive black hole referred to as the Lodestone.
+
+Billions of galaxies wrapped around the Lodestone extend in massive tendrils across the known universe. Though the universe may not all spin around the enormous black hole, it seems that intelligent life does.
+
+And life indeed seems to spring eternal around the maw of eternity, as the colliding matter and energy are the perfect cauldron of chaos to seed new possibilities. The systems that orbit the event horizon of the Lodestone brimming with intelligent life as well as valuable resources. Humans were not the first to arrive in this cosmic Eden, as the Troydians and C'Than had already met and fueded over control over the most valuable region in the universe. 
+
+The end of the Odyssey was humanity's arrival at Aeterna Perditor (the Lodestone) and it's official first contact with other intelligent species.
+
+### The Anti-Matter War
+When the humans completed their trek to the lodestone, a few very important things happened in rapid succession.
+
+First, they met not 1 but 2 intelligent space faring races.
+
+Second, they found that fertile world indeed seemed more frequent they closer they got to the Lodestone.
+
+Last, they found themselves embroiled in intergalactic war.
+
+All 3 races and traversed vast stretches of space, settling world to world to form connected trading networks. These networks relied on volatile fuels, particularly anti-matter, to power trade. 
+
+The awesome black hole at the center of universe provided an ideal and practically infinite capture point for anti-matter. The Troydians and C'than dispute who arrived first, but it is indisputable that they made little attempt to negotiate  or collaborate. Their culture and physiological differences were such that conflict was inevitable and immediate. The 2 races fought viciously, and thoroughly prevented each other from any sustained industrial extraction of the black hole's resources.
+
+The Troydians were hardy and bellicose, and even their manned vessels were more than a match for C'than yachts. 
+
+The C'than were crafty and patient, and their entrenched solar system and planetary defenses would eviscerate any Troydian fleets ignorant enough to attempt a full-scale invasion.
+
+So for a while, there was a bloody stalemate. Until a strangle and bold race arrived that called themselves Human.
+
+The Human fleet had its soldiers and weapons, but they had been battling most against environmental threats for generations. Weapons were peace-keeping tools, or at worst extensions of governmental authority.
+
+The Troydians and C'than were the most devasting threat in human memory. Their weapons were tuned for absolute destruction, and their fleets of unmanned warships were lethal to the human ships unlucky enough to encounter the alien fleets.
+
+The human fleet halted on the horizon of the Lodestone and turned their industrial and technological prowess to understanding their enemies and expanding their military power.
+
+The AE filament humanity emerged from was a significant slip space jump from the Troydian/C'Than conflict zone, and the two races were more focused on the greater threat each posed to the other. There was a critical span of several decades where the humans did not attempt to enroach on the disputed space, and contented themselves to observe the great Lodestone and their new neighbors from afar.
+
+That all changed in the Battle of the Horsehead, which took place in Horsehead Nebula (called Durshka Mata by the Troydian's) in the Troydian Filament. The Troydian Navy had mustered 60% of its fleet in a training exercise and parade maneuver as the Zuraav (Grand Admiral) of the fleet performed a propaganda spectacle to humiliate the C'Than.
+
+The human fleet emerged from deep spaces like ghosts, pulling off the largest high speed stealth maneuver ever. Troydia had never seen such effective stealth tech before (nor indeed had the C'Than), and found themselves pummeled to oblivion before they had a chance to respond. 
+
+The humans immediately offered clear terms in exchange for fair trading rights that would be shared. The Troydians capitulated after some internal debate. The 2 races agreed to share command of a combined navy that would immediately turn its gaze to C'Thanian space.
+
+The C'Than to their credit put up considerable effort against the Human/Troydian front, but even their formidable defense networks could be choked out by blockade. Eventually the last of the 3 known spacefaring races joined what would become the Confederation of Allied Races.
+
+### Confederation of Allied Races
+
+For the last 200 years (as of Standard Year 1331, or, year since the most recent Omega-Level Supernova ) the Confederation of Allied Races has stood as the bastion of inter-species commerce and proliferation. After the armistice of the 3 races, the next order of business was free resource extraction at whatever scale their commercial organizations could muster. 
+
+The humans made the suggestion of unhindered profit across all 3 species with the balance of power the sheer presence the humans added. By having equal voting power across all 3 parties, if any imbalance (trade or otherwise) should develop, the other 2 races could unify to oppose and legislate away to achieve equilibrium.
+
+To solidify the unopposable power of the Allied Naval Fleet, the races collaborated to create the first of Eternity's Gates ("Auverniavausan Laave", "Tlx Sccrdn") at the main shipping lane of each race's Cosmic Filament from the Lodestone. The gates function as permanent slip-space portals that are operated at a toll to fund the continued operation of CAR governance, primarily the expense of the Navy. They also allow vastly improved intergalactic commerce, with goods exported across cosmic filaments with the opening of Lodestone shipping lanes.
+
+To service the Naval fleet maneuvers which at this point primarily consist of shipping lane patrols, massive space ports were constructed to serve as garrisons and fueling stations. The stations were built from the start to facilitate commerce as the first completely nuetral intergalactic free trade zones.
+
+Now these space cities have blossomed into bustling metropolises where goods and devices from across the cosmos gather to mesmerize and delight. 
+
+### Jaren Conway
+During the Dark Matter War some adventurers fled the civilized filaments to seek fortune in the stars. One of the explorers, a human named Jaren Conway, led a small crew aboard the *Traverse* to a  hitherto unexplored filament. He disappeared for 20 years, but then returned with new allies and strange biological matter unlike any ever seen before. The crew of the *Traverse* were said to possess strange abilities after their return, and Jaren himself claimed they had discovered the "root of the cosmic tree" from which all life springs. His strange tales inspired a new generation of explorers to discover wondrous new life and rich treasures.
+
+The newly minted Confederation of Allied Races found this to be the perfect opportunity to release the pressure of competitive  exports and intergalactic immigration. The newest permanent E-Gate was created on the proverbial doorstep of Conway's web, as it would later come to be called.
+
+
+
+
+### Exchequor (the merchant allied fund)
+While the CAR technically rules, the civilized universe is run the Exchequor. These logisticians, merchants, and financiers provide the mechanism for trade to be enabled across impossibly vast distances and ensure contracts and funds are transferred in predictable ways. All of the universe buys and sells through the Exchequor, which is the company that manages the entire market.
+
+The head offices of the Exchequor are on Hullusta, one of the largest independent planetoid stations. Their offices comprise an entire city section where it is said the streets are made of the finest midnight marble.
+
+### The Free Syndicate
+The "Free" Syndicate is a lose association of smugglers, illicit market makers, and pirates that leech of the bottom Confederation society. Most activity is centered on Satellite Cities where shipments can be modified and switched en route. 
+
+The affiliates of the Syndicate claim sovereignty as indepedent citizens of the Universe. This status has proliferated since the opening of the CAR-0 (Cairo) gate. The uncounted star systems of Conway's Web are particularly resplendent with life, which encourages the "Seed of Life" tale Conway spread on his return.
+
+Fairy tale or not, the rare resources, particularly of a biological nature, make bold adventurers rich.
