@@ -1,0 +1,38 @@
+Radar:
+- Asteroids
+- Debris
+- These are placed by the GM sometimes to create a scene at the start of combat
+	- GM selectively allows things to become visible in radar.
+	- Blank out the radar screen in GM edit mode
+	- Stealth needs to be accounted for
+
+Walkthrough:
+- Signup
+	- Someday - flat annual fee to access for GM or player
+	- View Games with new games UI
+		- Access to create character workflow without creating a game - not for now, just allow them attached to games
+		- Should only be one GM at a time
+		- Character creation comes up if you aren't the GM and don't have a character
+		- GM defaults to some kind of instructions of an example setup
+	- Need a player management/invite view - this is the default for the GM/person that created it
+		- This screen will also be where the GM can transfer GM role to or create a new GM - just make a role drop down.
+	- GM Setup:
+		- Eventually - tools to help create this
+		- Possible option to select from some pre-made versions of the story - three factions to select from 
+		- The game will live in not started mode until a faction is selected
+		- Faction selection/Player management/game docs are the goto interfaces until you select faction
+		- Future/alternative - sandbox Mode - GM makes everything themselves or picks a custom starting location - you would still be in the selected game world
+- Map notes/thoughts:
+	- Location is based on a real celestial body - colliding galaxies around a giant mass of stuff, scifi premise is an ultramassive black hole in the middle and it's the most massive in the universe pulling multiple galaxies' together.  It's seeded multiple space fairing races.
+	- A lot of the world will be built out - packaged with story and maps, GM reads the whole story background
+		- You can also create new/uncharted system
+- GM/Character Setup step missed:
+	- Select a starting area and faction
+- Start playing the game:
+	- Default gameplay loop:
+		- GM initiates a check - he picks the the player, stat or skill, sets a threshold to run checks against
+			- Some skills are combos of skill, stat, equipment, etc
+			- 15 is a crit - multiple rolls,
+			- 1 is an automatic failure
+		- Luck roll - D30 that rolls - if you roll a 30, get a free reroll and can stash that reroll and use it in the future, there's a maximum of these, luck stat can adjust this
+	- 

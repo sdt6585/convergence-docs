@@ -3,9 +3,28 @@
 ### Stephen Notes:
 - [x] Spike Solution - Radar view - kind of working
 - [x] Test creating an object - done/working with new games
-- [ ] Notes thinking about how to structure data for AI, Procedural UI, and Asynchronous  Broadcast/Subscription model simultaneously
-	- [ ] First - just load all the data we need sequentially/normally into a large "game object and make some notes"
-		- [ ] Need an easier way to query the player characters vs the non player characters - I think a trigger would work to keep up an is_npc field
+
+### Important Todos:
+- [ ] Add an environmental variable - PUBLIC_LOG_LEVEL=error for prod and debug for debug
+	- [ ] Tell scott too
+- [ ] Party:
+	- [ ] Watch for inserts/deletes on ship, character, planet to see if we need to get the new data - might get complex but we shall see.
+	- [ ] Fill out the abilities and test them
+- [ ] Character Creation:
+	- [ ] Fix the character panel and make it work read only with a passed in character
+	- [ ] Find a place in the menu for a create character button, default to is_active = false for players created characters
+	- [ ] Don't assign ALL abilities, just tier 1 on creation.
+- [ ] Character:
+	- [ ] Load abilities by default
+- [ ] Database:
+	- [ ] ROW LEVEL SECURITY!!!!!
+	- [ ] equipment
+	- [ ] character_equipment
+
+##### Where I left off:
+- [ ] Character more or less working except for the character/summary panel and the AI stuff
+- [ ] Next - start setting up the open ai API, test some things with character creation
+
 - [ ] SQL/Game Logic Rules Needed:
 	- [ ] Game must have at least one player that is game master at all times, must make a new one to remove the original GM - may need some special logic like if it had a user before, it needs to keep one so it will allow game creation -> player addition as a multi-step process or maybe that needs to be a stored procedure or something?1
 	- [ ] Player_Character - unique index across player_id, character_id

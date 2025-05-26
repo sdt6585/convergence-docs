@@ -13,10 +13,10 @@
 
 Establish the core architecture and data models for the ship combat system
 
-- [/] TASK:: Document event-driven architecture approach with diagrams 
-	- [ ] Partially complete - Planned event factory coded - in another project, will bring over and document
-- [ ] TASK:: Create class diagram for core game objects (Ships, Characters, Combat) [[02 - WIP - Ship Combat Class Diagram]]
-- [ ] TASK:: Design entity relationship diagram for database persistence [[01 - WIP ERD]]
+- [x] TASK:: Document event-driven architecture approach with diagrams 
+	- [x] Partially complete - Planned event factory coded - in another project, will bring over and document
+- [x] TASK:: Create class diagram for core game objects (Ships, Characters, Combat) [[02 - WIP - Ship Combat Class Diagram]]
+- [x] TASK:: Design entity relationship diagram for database persistence [[01 - WIP ERD]]
 - [ ] TASK:: Document WebSocket event propagation for multi-user updates [[03 - WIP - Event Based State Diagram - Ship Combat]]
 
 ### GM Interface Design
