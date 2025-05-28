@@ -81,8 +81,8 @@ You may attempt to land wherever you wish, but locations with solid ground or be
 
 
 * Confederation of Allied Races
-* Free Traders
-* Corsairs
+* Exchequer (X)
+* The Free Syndicate
 
 
 ## Classes
