@@ -8,3 +8,11 @@ Define and build the essential user interface that will enable the Game Master a
 - Enable shared dice rolls for players, but hidden dice rolls for GMs
 - Enable inventory management for players and the GM
 - Enable side-character creation for recruiting additional crew members
+
+### Scope
+
+Make the player actions easily accessible to do any of 3 different primary decision trees:
+
+- Make a skill check
+- Update their inventory
+- Attack
