@@ -21,6 +21,23 @@ When you roll a 1 it is a critical failure, which means you automatically do not
 
 Luck Die: Every time you roll a standard skill or stat roll, a luck die rolls in the background. This is a d30, and if it lands in a 1-29, nothing happens. If you roll a 30 (or your luck adds up to 30) you have a cosmic moment, which means you gain a free re-roll to use at your choice. Your luck stat is added to every luck roll.
 
+### Inventory
+
+There are 3 primary types of inventory that players will manage:
+
+- Character (Player or NPC)
+- Ship
+- World
+
+Character Inventory
+A character can carry a maximum amount of carry weight in kilograms. Their carry weight is determined by their strength times their constitution. Equipment such as exoskeletons can significantly improve carry weight. Players may add to their inventory from the ship inventory when they are in a ship, or from the world inventory if they are on a planetary system. Player's may place items from their own inventory into the ship inventory while they are on a ship. 
+
+During turn-based mode, player-initiated inventory updates take up an action. 
+
+Game Masters may manage any character's inventory at any time.
+
+Ship Inventory
+
 ### Space Navigation
 When your crew is assembled on your ship and ready to set a course, you will view the various levels of the space map system to set your destination. 
 
@@ -1189,6 +1206,11 @@ Conway's Web is a cosmic filament that possesses unusually high concentration of
 
 Past the Orion is said to be pirate space, and forces unknown prowl the stars behind those.
 
+## Economy
+
+With creation of the CAR, the 3 allied races needed a stable way to trade across millions of worlds. The C'Than proposed a neutral hosted quantum cryptographic currency system that would be monitored  by all 3 races in Aeterna's orbit.
+
+Clients would hold small devices made of inert alloys entangled with the host bank. A micro-computer enables basic authentication and control by the owner. Balances can be updated and transferred virtual instantly.
 ## Lore
 
 This section comprise the major history and storyline of the world of convergence

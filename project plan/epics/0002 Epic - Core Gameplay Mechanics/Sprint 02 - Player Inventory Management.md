@@ -27,6 +27,9 @@ Under the Equipment section of the party pane, there should be an option to "Add
 
 The player may add an item to their inventory from the chat panel, either by clicking the panel or typing "Add item [item name]". This system should be flexible based on what is easy to implement from an engineering perspective.
 
+Maximum Carry Weight
+The maximum carry weight for a character is their strength times their constitution. Some equipment will increase this limit. If a character exceeds their carry limit, they move at half speed. If a character doubles their carry limit, they are unable to move without removing items from their inventory.
+
 ### Selling Items
 Merchants will take equipment and raw materials and trade them for coinage. When a trade is initiated in storytelling, the Game Master can remove an item from a player's inventory and place it in an NPC's inventory. The Game Master can then add the appropriate currency to the player's inventory.
 
