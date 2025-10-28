@@ -1,10 +1,5 @@
 **
 
-Project: Gargantua
-
-  
-
-A small crew braves the final frontiers of deep space. Chart your course across the galaxy to find adventure and plunder. Will you join the fabulously wealthy Free Traders and take your p
 
 ## Convergence
 
@@ -855,6 +850,11 @@ Languages
         * Item Value: Integer
         * Recharge Rate: Integer
         * Recharge Speed: Integer
+- Jump Pack
+	- Propulsion equipment that triples your jump distance in standard G environments. In low or 0-G it can be used to traverse space rapidly.
+		- Stats
+			- Name/Manufacturer: String
+			- Item Value: Integer
 * Hacking equipment
 * Surveying gear
 * Cooking utensils
@@ -1179,6 +1179,12 @@ Damage: 4.18 × 10^15 joules
 
 ## Creatures
 
+### Primara and Secunda
+In Conway's Rift it is commonly known that there is a fascinatingly dense concentration of life. So thick is life's proliferation that asteroid clouds can temporarily maintain breathable atmosphere. Whole flocks of gargantuan space creatures migrate over the region, and even larger predators lurk in dark.
+
+The forces that seed life are palpable in this place, and many speculate that the origin of all life in the universe must reside here. What is true is that there is an extratable resource of extremely potent bio-energy that can be used to dramatically augment any living organism, carbon based or not. This resource is bio-luminescent fungal-esque organism that defies any previous classification of life ever observed. It is not know what it feeds on, and seems to spring from nothing within  the rift. This is organism is called Primara, and it's existent is kept an open secret within the governing elite of the CAR and Excehequer merchants. Incredible breakthroughs in medical technology and bio-augmentation have been developed since its discovery.
+
+What is an even greater secret is the existence of another organism called Secunda. Secunda is more more rare and difficult to identify. It is an airborne virus that has only been identified a handful of times. The virus alters cognition in ways that appear to accelerate the development of advanced intelligence.
 
 ## Places
 
@@ -1201,10 +1207,15 @@ The filaments are labeled:
 
 ### Hullusta
 Major city orbiting Aeterna. Hullusta has booming market and entertainment districts supplied by the inter-galactic shipping industry that flows through its independent ports. It also serves as a major refueling station and garrison for the CAR.
-### Conway's Web
-Conway's Web is a cosmic filament that possesses unusually high concentration of life-bearing worlds in relatively close proximity. There are small settlements across the near frontier that are clustered to the Orion Nebula. This region of space is know for it's powerful storms that make coordinated fleet navigation nearly impossible.
+### Conway's Rift
+Conway's Rift is a cosmic filament that possesses unusually high concentration of life-bearing worlds in relatively close proximity. There are small settlements across the near frontier that are clustered to the Orion Nebula. This region of space is know for it's powerful storms that make coordinated fleet navigation nearly impossible.
 
 Past the Orion is said to be pirate space, and forces unknown prowl the stars behind those.
+
+#### Virgil
+Virgil is a massive inhabited planet not far from the entrance to Conway's Web. It is often traveler's first stop before they venture on to less populated or completely unknown world's. Unbeknowest outside the colonies, Virgil is a source of great unrest and constant trouble for the CAR. The planet has been inhabited by exodites of the 3 races for decades, if not centuries. The civilization that exists there considers itself free and independent, and currently has a tenuous peace with the CAR. 
+
+It is assumed that pirates and terrorists and funded and based out of Virgil and its moons, but full investigations are difficult to execute beyond the perimeter of civilization.
 
 ## Economy
 
@@ -1222,7 +1233,7 @@ The invention of Casamir Alloy made possible the conjuring of Einstein-Rosen Bri
 
 The initial methods were crude, and had the obvious weakness of relying on signals that had been travelling for years through empty space. By the time human craft arrived on distant galaxies, remarkable changes had already taken place. Still, some systems were habitable and patterns began to emerge.
 
-Dense galactic entanglements tended to have more matter and energy than the comparatively cold Milky Way. Atmospheric conditions conducive to carbon based life were more common, though other space faring races were still unknown. Humans began following the cosmic filament of their local super clusters, and thus eventually found their way to rotational point of the entire known universe - the Omega-class supermassive black hole referred to as the Lodestone.
+Dense galactic entanglements tended to have more matter and energy than the comparatively cold Milky Way. Atmospheric conditions conducive to carbon based life were more common, though other space faring races were still unknown. Humans began following the cosmic filament of their local super clusters, and thus eventually found their way to the rotational point of the entire known universe - the Omega-class supermassive black hole referred to as the Lodestone.
 
 Billions of galaxies wrapped around the Lodestone extend in massive tendrils across the known universe. Though the universe may not all spin around the enormous black hole, it seems that intelligent life does.
 
@@ -1247,15 +1258,15 @@ The Troydians were hardy and bellicose, and even their manned vessels were more 
 
 The C'than were crafty and patient, and their entrenched solar system and planetary defenses would eviscerate any Troydian fleets ignorant enough to attempt a full-scale invasion.
 
-So for a while, there was a bloody stalemate. Until a strangle and bold race arrived that called themselves Human.
+So for a while, there was a bloody stalemate. Until a strange and bold race arrived that called themselves Human.
 
 The Human fleet had its soldiers and weapons, but they had been battling most against environmental threats for generations. Weapons were peace-keeping tools, or at worst extensions of governmental authority.
 
-The Troydians and C'than were the most devasting threat in human memory. Their weapons were tuned for absolute destruction, and their fleets of unmanned warships were lethal to the human ships unlucky enough to encounter the alien fleets.
+The Troydians and C'than were the most devasting threat in human memory. Their weapons were tuned for absolute destruction, and their fleets of unmanned warships were lethal to the human ships unlucky enough to encounter the alien vessels.
 
 The human fleet halted on the horizon of the Lodestone and turned their industrial and technological prowess to understanding their enemies and expanding their military power.
 
-The AE filament humanity emerged from was a significant slip space jump from the Troydian/C'Than conflict zone, and the two races were more focused on the greater threat each posed to the other. There was a critical span of several decades where the humans did not attempt to enroach on the disputed space, and contented themselves to observe the great Lodestone and their new neighbors from afar.
+The AE filament humanity emerged from was a significant slip space jump from the Troydian/C'Than conflict zone, and the two races were more focused on the greater threat each posed to the other. There was a critical span of several decades where the humans did not attempt to encroach on the disputed space, and contented themselves to observe the great Lodestone and their new neighbors from afar.
 
 That all changed in the Battle of the Horsehead, which took place in Horsehead Nebula (called Durshka Mata by the Troydian's) in the Troydian Filament. The Troydian Navy had mustered 60% of its fleet in a training exercise and parade maneuver as the Zuraav (Grand Admiral) of the fleet performed a propaganda spectacle to humiliate the C'Than.
 
@@ -1267,7 +1278,7 @@ The C'Than to their credit put up considerable effort against the Human/Troydian
 
 ### Confederation of Allied Races
 
-For the last 200 years (as of Standard Year 1331, or, year since the most recent Omega-Level Supernova ) the Confederation of Allied Races has stood as the bastion of inter-species commerce and proliferation. After the armistice of the 3 races, the next order of business was free resource extraction at whatever scale their commercial organizations could muster. 
+For the last 200 years (as of Standard Epoch 1.331, or, millennium since the most recent Omega-Level Supernova ) the Confederation of Allied Races has stood as the bastion of inter-species commerce and proliferation. After the armistice of the 3 races, the next order of business was free resource extraction at whatever scale their commercial organizations could muster. 
 
 The humans made the suggestion of unhindered profit across all 3 species with the balance of power the sheer presence the humans added. By having equal voting power across all 3 parties, if any imbalance (trade or otherwise) should develop, the other 2 races could unify to oppose and legislate away to achieve equilibrium.
 
@@ -1291,8 +1302,16 @@ While the CAR technically rules, the civilized universe is run the Exchequor. Th
 The head offices of the Exchequor are on Hullusta, one of the largest independent planetoid stations. Their offices comprise an entire city section where it is said the streets are made of the finest midnight marble.
 
 ### The Free Syndicate
-The "Free" Syndicate is a lose association of smugglers, illicit market makers, and pirates that leech of the bottom Confederation society. Most activity is centered on Satellite Cities where shipments can be modified and switched en route. 
+The "Free" Syndicate is a lose association of smugglers, illicit market makers, and pirates that leech of the bottom Confederation society. Most activity is centered on Satellite Cities where shipments can be modified and switched en route. At least, that's what the CAR would have you believe.
 
-The affiliates of the Syndicate claim sovereignty as indepedent citizens of the Universe. This status has proliferated since the opening of the CAR-0 (Cairo) gate. The uncounted star systems of Conway's Web are particularly resplendent with life, which encourages the "Seed of Life" tale Conway spread on his return.
+The affiliates of the Syndicate claim sovereignty as independent citizens of the Universe. This status has proliferated since the opening of the CAR-0 (Cairo) gate. The uncounted star systems of Conway's Web are particularly resplendent with life, which encourages the "Seed of Life" tale Conway spread on his return.
+
+The Free Syndicate is really comprised of representatives of the trading interests of planetary and orbital systems within the Rift. Individual systems tend to be self-governing, and larger ones may contain multiple factions within themselves. These disparate peoples have tenuous threads that unite them against a common enemy: the CAR.
+
+Notable Characters:
+- Elias Mansel (Human), Presider
+- Xazel (C'than), Director of Intelligence
+- Rose Axel (Human), Director of Commerce
+- Burzz Grokash (Troydian), Director of Defense
 
 Fairy tale or not, the rare resources, particularly of a biological nature, make bold adventurers rich.
