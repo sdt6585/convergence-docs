@@ -871,6 +871,16 @@ Languages
 * Musical instrument 
 * Chemical kit
 * First aid kit
+* Space Suit: The standard fare in most merchant vessels are flexible and self-repairing nano-weave suits that can fit over existing equipment. Helmets tend to be species-specific, but the suit itself is quite malleable. They contain an oxygen recycler and small tank, which is usually good for several hours. 
+	* Stats
+		* Name/Manufacturer: String
+		* Item Value: Integer
+		* Max Oxygen: Integer
+		* Max Integrity: Integer
+		* Current Oxygen: Integer
+		* Current Integrity: Integer
+	* Players will consume a set amount of oxygen per turn
+	* Taking damage results in loss to integrity, roll a d3 each turn external damage is taken. Remove that total from the Current Integrity value
 
 
 ### Cybernetics
@@ -1185,6 +1195,15 @@ In Conway's Rift it is commonly known that there is a fascinatingly dense concen
 The forces that seed life are palpable in this place, and many speculate that the origin of all life in the universe must reside here. What is true is that there is an extratable resource of extremely potent bio-energy that can be used to dramatically augment any living organism, carbon based or not. This resource is bio-luminescent fungal-esque organism that defies any previous classification of life ever observed. It is not know what it feeds on, and seems to spring from nothing within  the rift. This is organism is called Primara, and it's existent is kept an open secret within the governing elite of the CAR and Excehequer merchants. Incredible breakthroughs in medical technology and bio-augmentation have been developed since its discovery.
 
 What is an even greater secret is the existence of another organism called Secunda. Secunda is more more rare and difficult to identify. It is an airborne virus that has only been identified a handful of times. The virus alters cognition in ways that appear to accelerate the development of advanced intelligence.
+
+### Grakl
+The Grakl are plasma-based life forms that feed off of dense energy sources. They range from microscopic to 30+ meters in size, and are common across the Rift. They resemble an elongated gelatin creature with rudimentary grasping limbs and powerful jaws. They are extremely territorial
+
+- Name: Grakl
+- Attacks: Bite, Grasp
+- Damage: variable based on the encounter
+- Ability: Energy Absorb, energy based attacks are absorbed and consumed as healing
+- Ability: Invertabrate, melee attacks deal 4x damage
 
 ## Places
 
