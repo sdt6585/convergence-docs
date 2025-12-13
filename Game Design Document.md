@@ -783,10 +783,9 @@ Fear not intrepid explorer, as your skills will scale rapidly in key areas. Ever
 
 
 
-* Vessel Piloting
-* Drone Piloting
-* Hardware Maintenance
-* Computer Engineering
+- Piloting
+* Handiwork
+* Engineering
 * Demolitions
 * Persuasion
 * Intimidation
