@@ -807,6 +807,7 @@ Fear not intrepid explorer, as your skills will scale rapidly in key areas. Ever
 * First aid
 * Evasion
 * Education
+* Connections
 
 Languages
 
@@ -1017,6 +1018,9 @@ Larger ships depending for hauling cargo or posing a substantial military threat
 * Min Crew: Integer
 * Max Passengers: Integer
 * Shield Capacity: Integer
+* Top Speed:  Integer
+* Weapon Ports:
+* Bay Capacity: 5-7
 * Speed: Integer
 * Weapon Ports: Integer
 
@@ -1113,8 +1117,14 @@ Calculations:
 
 **Maintenance**: A crew member is an space suit inside the maintenance bay making hardware maintenance checks to identify excessive and address excessive heat buildup. This is a dangerous job, and will require strapping in when the ship engages in high G maneuvers.
 
+## Radiation Streams
+There are pulses of energy that ripple through the universe, and in deep space these sometimes take the form of wide rivers of radiation that can be seen in certain lights.
 
+Most ships have energy absorbent paneling that can convert this radiation into additional energy that can boost velocity at no additional cost of fuel.
 
+This can make journeys more efficient by manually adjusting course on the fly, and can also make or break violent encounters with other spacecraft. 
+
+In a worst-case scenario, they can also be used to adjust velocity and direction when fuel cells are spent.
 #### Evasive Maneuvers
 
 When enemy torpedoes are fired, you may target them with your defense turrets to protect your ship. By pulling out of your currency trajectory you can reroute missiles and provide more time for your defense mechanisms to shoot them down or escape entirely. The difficulty of the evasive maneuver will depend on your ship’s distance to the originating point of the torpedoes, the delta-V of your ship’s new trajectory, and of course a little bit of luck. By forcing the torpedoes to re-route you buy your crew precious minutes to shoot down the torpedoes, or fire your own volley in response.
@@ -1186,6 +1196,10 @@ Delta V:
 Damage: 4.18 × 10^15 joules
 
 
+
+### Energy
+
+Aeterna Perditor offers unimaginably dense energy collection opportunities. From the harnessing the rotational kinetic energy of the black itself through the Penrose Process, to harvesting heavy metals and dark matter, energy stores are near limitless in the orbit of the black hole.
 ## Creatures
 
 ### Primara and Secunda
@@ -1230,6 +1244,8 @@ Conway's Rift is a cosmic filament that possesses unusually high concentration o
 
 Past the Orion is said to be pirate space, and forces unknown prowl the stars behind those.
 
+## Pleiades (Gate)
+Populated star cluster that is one of the 3 gates connecting Conway's Rift to the Cairo Gate.
 #### Virgil
 Virgil is a massive inhabited planet not far from the entrance to Conway's Web. It is often traveler's first stop before they venture on to less populated or completely unknown world's. Unbeknowest outside the colonies, Virgil is a source of great unrest and constant trouble for the CAR. The planet has been inhabited by exodites of the 3 races for decades, if not centuries. The civilization that exists there considers itself free and independent, and currently has a tenuous peace with the CAR. 
 
